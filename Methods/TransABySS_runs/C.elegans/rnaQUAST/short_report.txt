@@ -1,0 +1,45 @@
+SHORT SUMMARY REPORT 
+
+METRICS/TRANSCRIPTS                                    k25_35_45_merged_+100    
+
+ == DATABASE METRICS == 
+Genes                                                  46739                    
+Avg. number of exons per isoform                       4.266
+
+ == BASIC TRANSCRIPTS METRICS == 
+Transcripts                                            41126                    
+Transcripts > 500 bp                                   18549                    
+Transcripts > 1000 bp                                  10913
+
+ == ALIGNMENT METRICS == 
+Aligned                                                41101                    
+Uniquely aligned                                       39923                    
+Multiply aligned                                       161                      
+Unaligned                                              25
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Avg. aligned fraction                                  0.991                    
+Avg. alignment length                                  782.832                  
+Avg. mismatches per transcript                         0.395
+
+ == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS == 
+Misassemblies                                          0
+
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.357                    
+50%-assembled genes                                    9665                     
+95%-assembled genes                                    5824                     
+50%-covered genes                                      10844                    
+95%-covered genes                                      6354                     
+50%-assembled isoforms                                 10835                    
+95%-assembled isoforms                                 6194                     
+50%-covered isoforms                                   12193                    
+95%-covered isoforms                                   6767                     
+Mean isoform coverage                                  0.761                    
+Mean isoform assembly                                  0.699
+
+ == ASSEMBLY SPECIFICITY == 
+50%-matched                                            38563                    
+95%-matched                                            32904                    
+Unannotated                                            1092                     
+Mean fraction of transcript matched                    0.934
