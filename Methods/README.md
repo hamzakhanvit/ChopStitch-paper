@@ -15,7 +15,9 @@ Tools to install -
 |5)| [ncbi-blast-2.3.0+](https://goo.gl/KWhfJ9)|
 |6)| [LEMONS](http://lifeserv.bgu.ac.il/wb/dmishmar/pages/lemons.php)|
 |7)| [TopHat v2.1.1](https://ccb.jhu.edu/software/tophat/tutorial.shtml)|
-|8)| [StringTie version 1.3.1c](https://ccb.jhu.edu/software/stringtie/index.shtml)|
-|9)| [Cufflinks version 2.2.1](http://cole-trapnell-lab.github.io/cufflinks/)|
-|10)| [Graphviz version 2.4.0](http://www.graphviz.org/Download..php)|
+|8)|[Bowtie version 1.1.2](http://bowtie-bio.sourceforge.net/index.shtml)|
+|9)|[Samtools version 0.1.18(http://samtools.sourceforge.net/)]|
+|10)| [StringTie version 1.3.1c](https://ccb.jhu.edu/software/stringtie/index.shtml)|
+|11)| [Cufflinks version 2.2.1](http://cole-trapnell-lab.github.io/cufflinks/)|
+|12)| [Graphviz version 2.4.0](http://www.graphviz.org/Download..php)|
  
