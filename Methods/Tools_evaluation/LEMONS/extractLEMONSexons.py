@@ -12,8 +12,8 @@ __title__ = 'Extract LEMONS exons'
 __version__ = '0'
 __description__ = "extract_exons_from_LEMONS_output"
 __author__ = 'Hamza Khan'
-__license__ = 'GSC license'
-__author_email__ = "hamzakhanvit@gmail.com"
+__license__ = 'GPL license'
+__author_email__ = "hkhan@bcgsc.ca"
 epi = "Licence: %s by %s <%s>\n\n" % (__license__,
 __author__,
 __author_email__)
@@ -29,17 +29,13 @@ def extract_exons(inputfile, outputfile):
    '''
    Given an input xls file from LEMONS, 
    it outputs a FASTA file of putative exons
-   in the provided outputfile
    '''
    f=open(inputfile,'r')
    w=open(outputfile,'w')
    for line in f:
        line=line.rstrip()
        lst=line.split("\t")
-       #print lst
        exons=lst[3].split('@')
-       #print lst[0]
-       #print exons
        for i in xrange(len(exons)):
          if(exons[i]!=''):
              if(exons[i][0].isupper()):
