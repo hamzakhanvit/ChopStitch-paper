@@ -5,7 +5,8 @@ The repo [TransABySS_runs](./TransABySS_runs) contains scripts to obtain transcr
 The repo [Tools_evaluation](./Tools_evaluation) contains scripts to run ChopStitch, LEMONS, StringTie and Cufflinks. It also has the scripts used to evaluate the output of each tool.     
       
 Tools to install -
-
+|S.N.|Tools with link|
+|------|-----:|
 |1)| [TransABySS version 1.5.3.](http://www.bcgsc.ca/platform/bioinfo/software/trans-abyss/releases/1.5.3)|
 |2)| [ABySS version 1.5.2.](http://www.bcgsc.ca/platform/bioinfo/software/abyss/releases/1.5.2)|
 |3)| [ntCard version 1.0.0.](http://www.bcgsc.ca/platform/bioinfo/software/ntcard)|
