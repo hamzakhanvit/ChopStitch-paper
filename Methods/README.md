@@ -10,14 +10,13 @@ Tools to install -
 |------|-----:|
 |1)| [TransABySS version 1.5.3.](http://www.bcgsc.ca/platform/bioinfo/software/trans-abyss/releases/1.5.3)|
 |2)| [ABySS version 1.5.2.](http://www.bcgsc.ca/platform/bioinfo/software/abyss/releases/1.5.2)|
-|3)| [ntCard version 1.0.0.](http://www.bcgsc.ca/platform/bioinfo/software/ntcard)|
-|4)| [Python 2.7](https://www.python.org/download/releases/2.7/)|
-|5)| [ncbi-blast-2.3.0+](https://goo.gl/KWhfJ9)|
-|6)| [LEMONS](http://lifeserv.bgu.ac.il/wb/dmishmar/pages/lemons.php)|
-|7)| [TopHat v2.1.1](https://ccb.jhu.edu/software/tophat/tutorial.shtml)|
-|8)|[Bowtie version 1.1.2](http://bowtie-bio.sourceforge.net/index.shtml)|
-|9)|[Samtools version 0.1.18](http://samtools.sourceforge.net/)|
-|10)| [StringTie version 1.3.1c](https://ccb.jhu.edu/software/stringtie/index.shtml)|
-|11)| [Cufflinks version 2.2.1](http://cole-trapnell-lab.github.io/cufflinks/)|
-|12)| [Graphviz version 2.4.0](http://www.graphviz.org/Download..php)|
+|3)| [Python 2.7](https://www.python.org/download/releases/2.7/)|
+|4)| [ncbi-blast-2.3.0+](https://goo.gl/KWhfJ9)|
+|5)| [LEMONS](http://lifeserv.bgu.ac.il/wb/dmishmar/pages/lemons.php)|
+|6)| [TopHat v2.1.1](https://ccb.jhu.edu/software/tophat/tutorial.shtml)|
+|7)|[Bowtie version 1.1.2](http://bowtie-bio.sourceforge.net/index.shtml)|
+|8)|[Samtools version 0.1.18](http://samtools.sourceforge.net/)|
+|9)| [StringTie version 1.3.1c](https://ccb.jhu.edu/software/stringtie/index.shtml)|
+|10)| [Cufflinks version 2.2.1](http://cole-trapnell-lab.github.io/cufflinks/)|
+|11)| [Graphviz version 2.4.0](http://www.graphviz.org/Download..php)|
  
