@@ -5,11 +5,11 @@ along with experimental WGSS data as inputs to ChopStitch, we did the following 
        
 ####Run CreateBloom with the C.elegans real WGSS dataset mentioned in the manuscript.
      
+####Download reference transcripts FASTA file from [Ensembl](ftp://ftp.ensembl.org/pub/release-87/fasta/caenorhabditis_elegans/cdna/) (Caenorhabditis_elegans.WBcel235.cdna.all.fa). Our downloaded copy could be retrieved from this [link](https://drive.google.com/drive/folders/0B7WB43qKTdTZcFM2dDZxaEJOWTg)      
+    
 ####Using the generated Bloom filter, run FindExons with Caenorhabditis_elegans.WBcel235.cdna.all.fa.
    
 ####Run MakeSplicegraph.py and ccomps to generate a splice subgraph file.    
-    
-####Download reference transcripts FASTA file from [Ensembl](ftp://ftp.ensembl.org/pub/release-87/fasta/caenorhabditis_elegans/cdna/) (Caenorhabditis_elegans.WBcel235.cdna.all.fa). Our downloaded copy could be retrieved from this [link](https://drive.google.com/drive/folders/0B7WB43qKTdTZcFM2dDZxaEJOWTg)
        
 ####Run formatc.sh to format your splice subgraph file and to extract gene and transcript IDs from the headers of Caenorhabditis_elegans.WBcel235.cdna.all.fa            
    
