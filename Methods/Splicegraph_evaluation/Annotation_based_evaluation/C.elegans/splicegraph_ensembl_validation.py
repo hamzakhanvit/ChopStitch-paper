@@ -118,7 +118,7 @@ def checkTranscripts():
        ##print "Max count", m
        ##print "Percentage = %.2f " % p   
 
-       #Checking gene families on Dr.Inanc's request
+       #Checking splicegraphs that had 50% percentage
        #if(p==50):
             #print ("\n\nSplice graph no. %s has 50 percent transcripts "% subgraph)
             #print (set(l))
@@ -129,7 +129,7 @@ def checkTranscripts():
     print "Subgraphs with error = ", error_subgraph
     
     with open('Subgraph_eval.out', 'w') as f:
-         f.write("Percentage, Number of splice subgraphs")
+         f.write("Percentage, Number of splice subgraphs\n")
          for keys in Subgraph_eval:
              s = str(keys) + "," + str(Subgraph_eval[keys])+"\n"
              f.write(s)

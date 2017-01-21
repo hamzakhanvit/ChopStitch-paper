@@ -11,7 +11,7 @@
 ```
 sh formatc.sh -s splice_subgraph -r Caenorhabditis_elegans.WBcel235.cdna.all.fa
 ```
-Output:
+Output:   
 splicegraph_formatted - A formatted splice subgraph file   
 transcript_gene_pairs - A file containing gene and transcript IDs pairs extracted from the headers of Caenorhabditis_elegans.WBcel235.cdna.all.fa     
 
@@ -19,7 +19,7 @@ transcript_gene_pairs - A file containing gene and transcript IDs pairs extracte
 ```
 python splicegraph_ensembl_validation.py -i splicegraph_formatted -r transcript_gene_pairs
 ```
-Output:
+Output:    
 [Subgraph_eval.out](./Subgraph_eval.out) - A CSV file with two columns :
 * The percentage of transcripts in a splice subgraph that belong to a single gene
 * Number of splice subgraphs for a particular precentage.
