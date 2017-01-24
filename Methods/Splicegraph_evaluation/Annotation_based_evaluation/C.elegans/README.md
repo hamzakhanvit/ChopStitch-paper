@@ -3,7 +3,7 @@ transcript isoforms for a single gene. We expect all exons in a splicesubgraph
 to come from the same gene. Using Ensembl reference transcripts
 along with experimental WGSS data as inputs to ChopStitch, we did the following analysis - 
        
-####Run CreateBloom with the C.elegans real WGSS dataset mentioned in the manuscript.
+####Run CreateBloom with the *C.elegans* real WGSS dataset mentioned in the manuscript.
      
 ####Download reference transcripts FASTA file from [Ensembl](ftp://ftp.ensembl.org/pub/release-87/fasta/caenorhabditis_elegans/cdna/) (Caenorhabditis_elegans.WBcel235.cdna.all.fa). Our downloaded copy could be retrieved from this [link](https://drive.google.com/drive/folders/0B7WB43qKTdTZcFM2dDZxaEJOWTg)      
     
