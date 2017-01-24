@@ -1,5 +1,5 @@
 We aligned all putative exons outputted for C. elegans against their reference genome and hypothesized that all putative exons that are a part of a single node in a splice graph should align to approximately the same coordinates.
-         
+```         
 ------|-----------|-|--------------|---|------------|-|---------|------------------------------ GENOME
 
       -----Ex1----  -------Ex2-----    -----Ex3-----  ---Ex4---- Transcript 1
@@ -9,7 +9,8 @@ We aligned all putative exons outputted for C. elegans against their reference g
       -----Ex1----  -------Ex2-----    -----Ex3-----  ---Ex4---- Reference Transcript a
 
       -----Ex1----  -------Ex2-----                   ---Ex4---- Reference Transcript b
-           
+```
+                  
 1) Exons constituting a splice node should map to the same location on the genome
 
 2) All exons belonging to a single transcript in a sub-graph should have the same reference transcript mapping at the same location in the genome.
