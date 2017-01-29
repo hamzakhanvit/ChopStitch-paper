@@ -58,3 +58,8 @@ awk {'print $1,"\t",$6,"\t",$7,"\t",$8'} confident_exons.coord > sam2coord_assem
 python compare_bed_celegans.py -i confident_exons_splicegraph -r Caenorhabditis_elegans.WBcel235.85.gff3.bed -b sam2coord_assembled.bed 
 
 ```
+        
+Output:
+Total number of nodes      
+True postive nodes         
+False positive nodes          

@@ -156,8 +156,8 @@ def main(argv):
       
 
    print "\n\nTotal=", count
-   print "\n\nTp_nodes=", tp_nodes
-   print "\n\nFp_nodes=", fp_nodes
+   print "\n\nTP_nodes=", tp_nodes
+   print "\n\nFP_nodes=", fp_nodes
 
 
 if __name__ == "__main__":

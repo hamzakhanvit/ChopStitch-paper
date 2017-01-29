@@ -178,8 +178,8 @@ def main(argv):
       
 
    print "\n\nTotal=", count
-   print "\n\ntp_nodes=", tp_nodes
-   print "\n\nfp_nodes=", fp_nodes
+   print "\n\nTP_nodes=", tp_nodes
+   print "\n\nTP_nodes=", fp_nodes
 
 
 if __name__ == "__main__":

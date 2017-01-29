@@ -1,4 +1,4 @@
-We aligned all putative exons outputted for *H.sapiens* against its reference genome and hypothesized that all putative exons that are a part of a single node in a splice subgraph should align to approximately the same coordinates.
+We aligned all putative exons outputted for *H.sapiens* against its reference genome and hypothesized that all putative exons that are a part of a single node in a splicegraph should align to approximately the same coordinates.
 ```         
 ------|-----------|-|--------------|---|------------|-|---------|------------------------------ GENOME
 
@@ -16,9 +16,9 @@ All nodes obeying this rule will be marked true positive, while the others will 
          
 ####Using the generated Bloom filter, run FindExons with the TransABySS transcriptome assembly.(Click [here](https://drive.google.com/drive/u/1/folders/0B22DJq3IWQ8JX2xaTXZqVFZGNFE) for our assembly file)
    
-####Run MakeSplicegraph.py to generate a splicegraph  file.
+####Run MakeSplicegraph.py to generate a splicegraph file.
      
-####Download a FASTA file of *H.sapiens* reference genome. Click [here](https://drive.google.com/drive/u/1/folders/0B7WB43qKTdTZZ3VSd1ZGSkVlWXc) to obtain our copy.
+####Download a FASTA file of *H.sapiens* reference genome from NCBI. Click [here](https://drive.google.com/drive/u/1/folders/0B7WB43qKTdTZZ3VSd1ZGSkVlWXc) to obtain our copy.
     
 ####Create bwa indices for the reference file
 ```
@@ -45,3 +45,8 @@ awk {'print $1,"\t",$6,"\t",$7,"\t",$8'} confident_exons.coord > sam2coord_assem
 python compare_bed_human.py -i confident_exons_splicegraph -b sam2coord_assembled.bed
 ```
         
+Output:
+Total number of nodes  	   
+True postive nodes     	   
+False positive nodes   	      
+
