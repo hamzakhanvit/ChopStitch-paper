@@ -11,7 +11,7 @@ We aligned all putative exons outputted for *H.sapiens* against its reference ge
 1) Exons constituting a splice node should map to the same location on the genome
            
 
-All sub graphs obeying these rules will be marked positive, while the others will be marked false positives. 
+All nodes obeying these rules will be marked true positive, while the others will be marked as false positives. 
              
        
 ####Run CreateBloom with the *H.sapiens* real WGSS dataset mentioned in the manuscript.

@@ -1,4 +1,4 @@
-We aligned all putative exons outputted for C. elegans against their reference genome and hypothesized that all putative exons that are a part of a single node in a splice graph should align to approximately the same coordinates.
+We aligned all putative exons outputted for *C. elegans* against their reference genome and hypothesized that all putative exons that are a part of a single node in a splice graph should align to approximately the same coordinates.
 ```         
 ------|-----------|-|--------------|---|------------|-|---------|------------------------------ GENOME
 
@@ -13,9 +13,9 @@ We aligned all putative exons outputted for C. elegans against their reference g
                   
 1) Exons constituting a splice node should map to the same location on the genome
 
-2) (Extra check) All exons belonging to a single transcript in a sub-graph should have the same reference transcript mapping at the same location in the genome.
+2) (Extra check) All exons belonging to a single transcript in a splicegraph should have the same reference transcript mapping at the same location in the genome.
 
-All sub graphs obeying these rules will be marked positive, while the others will be marked negative 
+All nodes obeying these rules will be marked as true positive, while the others will be marked as false positives. 
 
        
 ####Run CreateBloom with the *C.elegans* real WGSS dataset mentioned in the manuscript.
