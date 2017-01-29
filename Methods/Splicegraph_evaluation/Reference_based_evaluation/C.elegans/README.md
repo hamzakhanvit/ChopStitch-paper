@@ -28,7 +28,7 @@ Our copy of Caenorhabditis_elegans.WBcel235.85.gff3.bed could be retrieved from 
     
 ####Using the generated Bloom filter, run FindExons with the TransABySS transcriptome assembly.(Click [here](https://drive.google.com/drive/folders/0B22DJq3IWQ8JeGpxZ2l3c1FWS0E) for our assembly file)
    
-####Run MakeSplicegraph.py and ccomps to generate a splice subgraph file.
+####Run MakeSplicegraph.py to generate a splicegraph file.
      
 ####Download a FASTA file of *C.elegans* reference genome. Click [here](https://drive.google.com/drive/folders/0B7WB43qKTdTZd2xydHBNRGl1ejg) to obtain our copy.
     

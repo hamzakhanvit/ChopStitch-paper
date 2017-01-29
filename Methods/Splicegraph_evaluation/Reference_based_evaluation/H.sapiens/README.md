@@ -7,18 +7,16 @@ We aligned all putative exons outputted for *H.sapiens* against its reference ge
       -----Ex1----  -------Ex2-----                   ---Ex4---- Transcript 2    
 
 ```
-                  
-1) Exons constituting a splice node should map to the same location on the genome
-           
+                            
 
-All nodes obeying these rules will be marked true positive, while the others will be marked as false positives. 
+All nodes obeying this rule will be marked true positive, while the others will be marked as false positives. 
              
        
 ####Run CreateBloom with the *H.sapiens* real WGSS dataset mentioned in the manuscript.
          
 ####Using the generated Bloom filter, run FindExons with the TransABySS transcriptome assembly.(Click [here](https://drive.google.com/drive/u/1/folders/0B22DJq3IWQ8JX2xaTXZqVFZGNFE) for our assembly file)
    
-####Run MakeSplicegraph.py and ccomps to generate a splice subgraph file.
+####Run MakeSplicegraph.py to generate a splicegraph  file.
      
 ####Download a FASTA file of *H.sapiens* reference genome. Click [here](https://drive.google.com/drive/u/1/folders/0B7WB43qKTdTZZ3VSd1ZGSkVlWXc) to obtain our copy.
     
