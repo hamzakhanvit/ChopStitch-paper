@@ -1,0 +1,4 @@
+hamzabwa index /projects/btl/datasets/celegans/reference/celegans_genome.fasta
+hamzabwa mem -a /projects/btl/datasets/celegans/reference/celegans_genome.fasta ../confident_exons.fa > confident_exons.sam
+perl /home/hkhan/Downloads/sam2coord.pl confident_exons.sam > confident_exons.coord
+awk {'print $1,"\t",$6,"\t",$7,"\t",$8'} confident_exons.coord > sam2coord_assembled.bed

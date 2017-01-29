@@ -13,7 +13,7 @@ We aligned all putative exons outputted for C. elegans against their reference g
                   
 1) Exons constituting a splice node should map to the same location on the genome
 
-2) All exons belonging to a single transcript in a sub-graph should have the same reference transcript mapping at the same location in the genome.
+2) (Extra check) All exons belonging to a single transcript in a sub-graph should have the same reference transcript mapping at the same location in the genome.
 
 All sub graphs obeying these rules will be marked positive, while the others will be marked negative 
 
@@ -48,7 +48,13 @@ perl /home/hkhan/Downloads/sam2coord.pl confident_exons.sam > confident_exons.co
 ````
        
 ####Generate a bed file with mapping coordinates for each putative exon 
+```
 awk {'print $1,"\t",$6,"\t",$7,"\t",$8'} confident_exons.coord > sam2coord_assembled.bed
+```
       
 ####Run compare_bed_celegans.py 
+        
+```
+python compare_bed_celegans.py -i confident_exons_splicegraph -r Caenorhabditis_elegans.WBcel235.85.gff3.bed -b sam2coord_assembled.bed 
 
+```
